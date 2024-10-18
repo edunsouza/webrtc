@@ -1,0 +1,12 @@
+{
+  "name": "stun-server",
+  "version": "1.0.0",
+  "author": "edunsouza",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test",
+    "start:watch": "npx nodemon --exec \"npm test && npm start\"",
+    "test:watch": "node --test --watch"
+  }
+}
